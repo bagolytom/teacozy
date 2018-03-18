@@ -1,0 +1,89 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color:seashell;
+  background-color: black;
+  opacity:0.9;
+  /*text-align:center;*/
+}
+
+.topbox {
+  display:flex;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  align-items: center;
+}
+
+.logoimagecontainer {
+  flex-grow: 1;
+}
+
+.logoimagecontainer img {
+  padding: 5px 10px;
+  height: 50px;
+}
+
+a {
+  color: seashell;
+}
+
+nav span {
+  display: inline-block;
+  height: 50px;
+  padding: 5px 10px;
+}
+
+.hero {
+  position: relative;
+  top: 70px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  width: 1200px;
+  background-image: url("img-mission-background.jpg");
+  margin: auto;
+  text-align:center;
+}
+
+.hero h2 {
+  font-size: 30px;
+}
+
+.headerbackground {
+  background-color: black;
+  width: 1200px;
+}
+
+.teaofmonth {
+  text-align:center;
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.productcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+}
+
+.item span {
+  padding: 10px;
+}
