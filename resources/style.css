@@ -14,6 +14,7 @@ body {
   border-bottom: 1px solid seashell;
   position: fixed;
   align-items: center;
+  z-index: 1;
 }
 
 .logoimagecontainer {
@@ -86,4 +87,15 @@ nav span {
 
 .item span {
   padding: 10px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  height: 500px;
+  width: 1200px;
+  /*margin: auto;*/
+  background-image: url("img-locations-background.jpg");
 }
