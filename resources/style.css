@@ -3,9 +3,10 @@ body {
   font-size: 22px;
   color:seashell;
   background-color: black;
-  opacity:0.9;
+  opacity:0,9;
   /*text-align:center;*/
 }
+
 
 .topbox {
   display:flex;
@@ -37,7 +38,7 @@ nav span {
 }
 
 .hero {
-  position: relative;
+  position:relative;
   top: 70px;
   display: flex;
   justify-content:center;
@@ -93,9 +94,40 @@ nav span {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("img-locations-background.jpg");
+  flex-wrap: wrap;
+  margin:auto;
   padding-top: 70px;
   height: 500px;
   width: 1200px;
-  /*margin: auto;*/
-  background-image: url("img-locations-background.jpg");
+}
+
+#locationstag {
+  width: 1200px;
+  margin:0;
+  text-align:center;
+}
+
+.locationbox {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin: 15px 20px;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+}
+
+footer {
+  text-align:left;
+  font-size:18px;
+  position: relative;
+  top: 70px;
+}
+
+.footerbox {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  height:200px;
 }
